@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+    position: relative;
+    width: 100%;
+}
+.item{
+    position: absolute;
+    top:0;
+}
+.nav-bar{
+    width: 100%;
+    height: auto;
+    padding: 32px 60px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 50px;
+    color: #2F4F4F;
+}
+.link{
+    margin-left: 385px;
+}
+.nav-bar_link{
+    margin-right: 24px;
+    text-decoration: none;
+    color: #2F4F4F;
+    font-size: 24px;
+}
+.nav-bar_link:hover{
+    color: #fff;
+}
+.btn{
+    padding: 14px;
+    background-color: #00CED1;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #00CED1;
+}
+.content{
+    margin-left: 60px;
+    margin-top: 350px;
+    width: 450px;
+}
+.how{
+    font-size: 44px;
+    color: #2F4F4F;
+}
+.team{
+    font-size: 44px;
+    color: #000;
+}
+.text{
+    margin-top: 12px;
+    color: #333;
+}
+.button{
+    margin-top: 16px;
+    padding: 16px;
+    color: #fff;
+    background-color: #00CED1;
+    border: none;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.button:hover{
+    color: #00CED1;
+    background-color: #fff;
+}
